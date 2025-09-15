@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 2</title>
+    <style>
+        body {
+            background-color: orange; /* Background color */
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        #bold {
+            font-weight: bold;
+        }
+
+        /* Style the submit button */
+        input[type="submit"] {
+            background-color: orange;
+            margin: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hover effect */
+        input[type="submit"]:hover {
+            background-color: red;
+            color: white;
+        }
+
+        /* div styling for textboxes */
+        .input-group {
+            margin: 7px;
+        }
+
+        label {
+            font-size: 21px; 
+        }
+    </style>
+</head>
+<body>
+    <h1 class="purple">This is Lab 2</h1>
+    <p id="bold">We're making HTML forms</p>
+
+    <!-- Example form -->
+    <form action="page2.html" method="post">
+        <div class="input-group">
+            <label for="username" class="purple">Enter your username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
